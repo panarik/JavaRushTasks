@@ -5,7 +5,12 @@ package com.javarush.task.task04.task0402;
 */
 
 public class Solution {
+
+
+
+
     public static void main(String[] args) {
+
         Apple apple = new Apple();
         apple.addPrice(50);
         Apple apple2 = new Apple();
@@ -14,10 +19,11 @@ public class Solution {
     }
 
     public static class Apple {
+
         public static int applesPrice = 0;
 
         public static void addPrice(int applesPrice) {
-            //напишите тут ваш код
+            Apple.applesPrice = Apple.applesPrice + applesPrice;
 
         }
     }
