@@ -12,7 +12,12 @@ public class Solution {
 
     public static void displayClosestToTen(int a, int b) {
 
+        int a1 = abs(a);
+        int b1 = abs(b);
 
+//        if () {
+//            System.out.println(a);
+//        } else System.out.println(b);
 
     }
 
