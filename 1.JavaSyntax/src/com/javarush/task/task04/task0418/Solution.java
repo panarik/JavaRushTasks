@@ -1,6 +1,6 @@
 package com.javarush.task.task04.task0418;
 
-import javafx.scene.transform.Scale;
+
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
