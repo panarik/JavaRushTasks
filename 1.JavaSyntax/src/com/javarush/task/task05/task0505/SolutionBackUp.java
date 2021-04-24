@@ -4,17 +4,10 @@ package com.javarush.task.task05.task0505;
 Кошачья бойня
 */
 
-public class Solution {
+public class SolutionBackUp {
 
     public static void main(String[] args) {
-
-        Cat cat1 = new Cat("Cat1", 1, 1, 10);
-        Cat cat2 = new Cat("Cat2", 2, 1, 20);
-        Cat cat3 = new Cat("Cat3", 3, 1, 30);
-
-        System.out.println(cat1.fight(cat2));
-        System.out.println(cat2.fight(cat3));
-        System.out.println(cat1.fight(cat3));
+        //напишите тут ваш код
     }
 
     public static class Cat {
